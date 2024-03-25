@@ -1,0 +1,58 @@
+.container {
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.lista-tareas {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lista-tareas li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista-tareas li.tachado {
+    text-decoration: line-through;
+}
+
+.lista-tareas li input {
+    margin-right: 10px;
+}
+
+.lista-tareas li button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: red;
+}
+
+.nueva-tarea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.nueva-tarea input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.nueva-tarea button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
